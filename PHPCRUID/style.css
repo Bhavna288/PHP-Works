@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+.heading{
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("heading.webp");
+    background-size: cover;
+    background-position-y: -200px;
+    background-position: fixed;
+    text-align: center;
+    font: bold 22px sans-serif;
+    color: white;
+    height: 280px;
+    display: none;
+    transition: all 3s;
+}
+/* 
+.heading:hover{
+    transform: scale(1.15);
+} */
+
+.heading p{
+    font: bold 15px sans-serif;
+    padding: 10px 50px 50px 50px;
+}
+
+.heading img{
+    width: 100px;
+    padding: 65px 20px 20px 20px;
+}
+
+.contain{
+    display: none;
+}
+
+.contain .nav-link{
+    text-align: center;
+    padding: 15px;
+    color: orange;
+    font: normal 15px sans-serif;
+    min-width: 100px;
+}
+
+#new input[type="text"]{
+    padding: 13px;
+    width: 250px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+#new input[type="text"]:focus{
+    transform: scale(1.05);
+}
+
+.contain .tab-pane{
+    margin: 40px 80px;
+}
+
+#list .tab-pane{
+    margin: 0;
+}
+
+#myform span{
+    padding: 10px 10px 10px 0px;
+    margin-right: 40px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.contain h3{
+    padding-bottom: 20px;
+}
+
+#register{
+    padding: 13px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: bolder;
+    transition: transform .4s;
+}
+
+#register:hover{
+    background: white;
+    border: 2px solid orange;
+    color: black;
+    transform: scale(1.05);
+}
