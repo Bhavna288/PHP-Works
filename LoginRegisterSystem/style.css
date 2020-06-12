@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+
+.contain{
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+
+}
+
+.content{
+    color: white;
+    font: bold 55px Broadway;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    bottom: 40%;
+    left: 36%;
+    right: 40%;
+}
+
+.content p{
+    font: bold 40px Monotype Corsiva;
+    text-align: center;
+}
+
+.content button{
+    font: normal 20px sans-serif;
+    padding: 15px 25px;
+    margin: 15px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: transform .7s;
+}
+
+.content button:hover{
+    background-color: white;
+    transform: scale(1.15);
+    border: none;
+    box-shadow: 0px 0px 10px white;
+}
+
+.signup, .login{
+    font: bold 55px Broadway;
+    text-align: center;
+    position: fixed;
+    top: 12%;
+    left: 34%;
+    right: 34%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 0px 15px white;
+    border-radius: 5px;
+}
+
+.login{
+    top: 35%;
+    padding: 20px;
+}
+
+.signup p, .login p{
+    margin: 10px 0px;
+    font: bold 30px Kristen ITC;
+}
+
+.signup input, .login input{
+    background-color: rgba(10, 10, 10, 0.9);
+    color: white;
+    padding: 12px;
+    border: 0px;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: transform .2s;
+}
+
+.signup input:focus, .login input:focus{
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(30, 30, 30, 0.9);
+    transform: scale(1.05);
+}
+
+.caresworth{
+    font: bold 45px Broadway;
+    position: fixed;
+    top: 20px;
+    color: white;
+    left: 39%;
+}
+
+.login .caresworth{
+    top: 20%;
+}
+
+.signup input[type="submit"], .login input[type="submit"]{
+    font-weight: bold;
+    width: 150px;
+    margin: 20px auto 10px auto;
+    background-color: green;
+    transition: transform .2s;
+}
+
+.signup input[type="submit"]:hover, .login input[type="submit"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px black;
+    background-color: greenyellow;
+    color: black;
+}
+
+#already, #noaccount{
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+    margin-bottom: 0px;
+    font: normal 14px Calibri;
+}
+
+#already a, #noaccount a{
+    color: green;
+}
+
+.home{
+    position: fixed;
+    top: 15%;
+    bottom: 10%;
+    left: 20%;
+    right: 20%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 0px 12px white;
+}
+
+.nav-link{
+    width: 158px;
+    text-align: center;
+}
+
+a.nav-link{
+    color: green
+}
+
+.dropP{
+    text-align: center;
+}
+
+#myTabContent{
+    padding: 70px;
+    text-align: justify;
+}
+
+#myTabContent #contact{
+    font: bold 22px Kristen ITC;
+}
+
+#myTabContent #contact p{
+    font: normal 22px Monotype Corsiva;
+    padding: 20px;
+}
+
+#myTabContent #profile{
+    padding: 50px 90px;
+}
